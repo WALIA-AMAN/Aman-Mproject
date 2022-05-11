@@ -1,6 +1,6 @@
 # my project
 
-just a concept idea...
+just a concept idea for a responsive website...
 
 end sem project.
 xd
