@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link href="/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Trees4Peace</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="/aboutus.html">About us</a>
+            </li>
+            <li class="list-item-inline">
+                <a  class="link" href="/blogs.html">Blogs</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/contactus.html">Contact us</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/joinus.html">Join our community</a>
+            </li>
+        </ul>
+
+    </nav>
+    
+    <div id="page" class="site">
+        <div class="container">
+            <div class="form-box">
+                <div class="progress">
+                    <div class="logo"><a href="/"><span>Trees4</span>Peace</a></div>
+                    <ul class="progress-steps">
+                        <li class="step active">
+                            <span>1</span>
+                            <p>Name<br><span>20 seconds to complete</span></p>
+                        </li>
+                        <li class="step">
+                            <span>2</span>
+                            <p>Contact<br><span>60 seconds to complete</span></p>
+                        </li>
+                        <li class="step">
+                            <span>3</span>
+                            <p>E-mail<br><span>30 seconds to complete</span></p>
+                        </li>
+                    </ul>
+
+                </div>
+                <form action="">
+                    <div class="form-one form-step active">
+                        <div class="bg-svg"></div>
+                        <h2>Personal Information</h2>
+                        <p>Enter your personal information correctly</p>
+                        <div>
+                            <label>First Name</label>
+                            <input type="text" placeholder="e.g Phil">
+                        </div>
+                        <div>
+                            <label>Last Name</label>
+                            <input type="text" placeholder="e.g Johnson">
+                        </div>
+                        <div class="birth">
+                            <label>Date of Birth</label>
+                            <div class="grouping">
+                                <input type="text" pattern="[0-9]*" name="day" value="" min="0" max="31" placeholder="DD">
+                                <input type="text" pattern="[0-9]*" name="month" value="" min="0" max="12" placeholder="MM">
+                                <input type="text" pattern="[0-9]*" name="year" value="" min="0" max="2050" placeholder="YYYY">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-two form-step">
+                        <div class="bg-svg"></div>
+                        <h2>Contact</h2>
+                        <div>
+                            <label>Phone</label>
+                            <input type="tel" placeholder="+91xxxxxxxxxx">
+                        </div>
+                        <div>
+                            <label>Address</label>
+                            <input type="text" placeholder="Street Address">
+                        </div>
+                        <div>
+                            
+                            <input type="text" placeholder="Flat, Building">
+                        </div>
+                        <div>
+                            <label>City</label>
+                            <input type="text" placeholder="City">
+                        </div>
+                        <div>
+                            <label>State</label>
+                            <input type="text" placeholder="State/Province">
+                        </div>
+                        <div>
+                            <label>Zip Code</label>
+                            <input type="text" placeholder="Postal/Zip Code">
+                        </div>
+                        <div>
+                            <label>Country</label>
+                            <select name="country" id="country">
+                                <option value="">Please select</option>
+                                <option value="Australia">Australia</option>
+                                <option value="America">America</option>
+                                <option value="India">India</option>
+                                <option value="France">France</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Denmark">Denmark</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="form-three form-step">
+                        <div class="bg-svg"></div>
+                        <h2>Security</h2>
+                        <div>
+                            <label>Email</label>
+                            <input type="email" placeholder="Your email address">
+                        </div>
+                        <div>
+                            <label>Username</label>
+                            <input type="text" placeholder="Username">
+                        </div>
+                        <div>
+                            <label>Password</label>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Confirm Password">
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label>Receive our news letter and special offers</label>
+                            
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn-prev" disabled>Back</button>
+                        <button type="button" class="btn-next">Next Step</button>
+                        <button type="button" class="btn-submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
